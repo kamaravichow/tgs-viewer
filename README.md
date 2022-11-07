@@ -18,7 +18,3 @@ Desktop App to view Telegram Stickers File
 ## Preview
 
 ![Preview](https://github.com/kamaravichow/tgs-viewer/raw/main/metadata/preview.png)
-
-
-## Info
-Telegram Stickers are basically Lottie Files, this app will parse it and preview them offline.

@@ -2,15 +2,23 @@
 
 Desktop App to view Telegram Stickers File
 
-## Getting Started
+----
 
-This project is a starting point for a Flutter application.
+## Download
+[**Download for MACOS (DMG)**](https://downloads.aravi.me/raw/Applications/MacOs/TGS/tgsviewer-0.1.dmg)
 
-A few resources to get you started if this is your first Flutter project:
+[**Download for Windows (Soon)**](https://downloads.aravi.me/raw/Applications/Windows/TGS/tgsviewer-0.1.exe)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[**Download for Linux (Soon)**](https://downloads.aravi.me/raw/Applications/Linux/TGS/tgsviewer-0.1.pkg)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+~ [**Find more Releases**](https://github.com/kamaravichow/tgs-viewer/releases)
+
+---
+
+## Preview
+
+![Preview](https://github.com/kamaravichow/tgs-viewer/raw/main/metadata/preview.png)
+
+
+## Info
+Telegram Stickers are basically Lottie Files, this app will parse it and preview them offline.

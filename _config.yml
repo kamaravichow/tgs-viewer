@@ -1,5 +1,8 @@
 title: TGS Viewer
 description: Play and view Telegram Sticker Files TGS file (.tgs)
-show_downloads: true
+show_downloads: false
 google_analytics:
 remote_theme: pages-themes/cayman
+github:
+  zip_url: https://github.com/kamaravichow/tgs-viewer
+  another_url: https://downloads.aravi.me/raw/Applications/MacOs/TGS/tgsviewer-0.1.dmg

@@ -6,7 +6,7 @@ import 'package:window_size/window_size.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
+  if (Platform.isWindows || Platform.isLinux) {
     setWindowMaxSize(const Size(1024, 768));
     setWindowMinSize(const Size(512, 384));
     setWindowTitle('TGS Viewer');

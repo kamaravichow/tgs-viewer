@@ -27,5 +27,5 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: Release
-          path: build/linux/release/bundle
+          path: build/linux
 

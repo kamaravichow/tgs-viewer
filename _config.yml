@@ -4,5 +4,8 @@ show_downloads: false
 google_analytics:
 remote_theme: pages-themes/cayman
 github:
-  zip_url: https://github.com/kamaravichow/tgs-viewer
+  zip_url: https://tgsviewer.aravi.me/web
+  another_url: https://tgsviewer.aravi.me/web
+download:
+  zip_url: https://tgsviewer.aravi.me/web
   another_url: https://tgsviewer.aravi.me/web

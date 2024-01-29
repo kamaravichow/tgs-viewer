@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
   <base href="/web/">
@@ -13,7 +14,7 @@
   <meta name="apple-mobile-web-app-title" content="tgsviewer">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
 
   <title>Telegram Sticker Viewer - TGS Viewer</title>
   <link rel="manifest" href="manifest.json">
@@ -21,37 +22,91 @@
   <!-- Primary Meta Tags -->
   <title>Telegram Sticker Viewer - TGS Viewer Online</title>
   <meta name="title" content="Telegram Sticker Viewer - TGS Viewer Online" />
-  <meta name="description" content="Open .tgs files with out Telegram Sticker viewer tool right on your browser. Telegram sticker files end with .tgs which can be opened with out TGS Sticker Viewer" />
+  <meta name="description"
+    content="Open .tgs files with out Telegram Sticker viewer tool right on your browser. Telegram sticker files end with .tgs which can be opened with out TGS Sticker Viewer" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://metatags.io/" />
   <meta property="og:title" content="Telegram Sticker Viewer - TGS Viewer Online" />
-  <meta property="og:description" content="Open .tgs files with out Telegram Sticker viewer tool right on your browser. Telegram sticker files end with .tgs which can be opened with out TGS Sticker Viewer" />
+  <meta property="og:description"
+    content="Open .tgs files with out Telegram Sticker viewer tool right on your browser. Telegram sticker files end with .tgs which can be opened with out TGS Sticker Viewer" />
   <meta property="og:image" content="https://cdn.aravi.me/tgs-preview.webp" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="https://metatags.io/" />
   <meta property="twitter:title" content="Telegram Sticker Viewer - TGS Viewer Online" />
-  <meta property="twitter:description" content="Open .tgs files with out Telegram Sticker viewer tool right on your browser. Telegram sticker files end with .tgs which can be opened with out TGS Sticker Viewer" />
+  <meta property="twitter:description"
+    content="Open .tgs files with out Telegram Sticker viewer tool right on your browser. Telegram sticker files end with .tgs which can be opened with out TGS Sticker Viewer" />
   <meta property="twitter:image" content="https://cdn.aravi.me/tgs-preview.webp" />
 
 
   <script>
     const serviceWorkerVersion = "2029292628";
   </script>
+
+  <style>
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    .loader {
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid blue;
+      border-right: 16px solid green;
+      border-bottom: 16px solid red;
+      border-left: 16px solid pink;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+    }
+
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
   <script src="flutter.js" defer></script>
 </head>
+
 <body>
+  <div class="loading">
+    <div class="loader"></div>
+  </div>
   <script>
-    window.addEventListener('load', function(ev) {
+    window.addEventListener('load', function (ev) {
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
         },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
+        onEntrypointLoaded: function (engineInitializer) {
+          engineInitializer.initializeEngine().then(function (appRunner) {
             appRunner.runApp();
           });
         }
@@ -59,4 +114,5 @@
     });
   </script>
 </body>
+
 </html>

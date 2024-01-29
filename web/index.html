@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <base href="/web/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="tgsviewer">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Telegram Sticker Viewer - TGS Viewer</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Primary Meta Tags -->
+  <title>Telegram Sticker Viewer - TGS Viewer Online</title>
+  <meta name="title" content="Telegram Sticker Viewer - TGS Viewer Online" />
+  <meta name="description" content="Open .tgs files with out Telegram Sticker viewer tool right on your browser. Telegram sticker files end with .tgs which can be opened with out TGS Sticker Viewer" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://metatags.io/" />
+  <meta property="og:title" content="Telegram Sticker Viewer - TGS Viewer Online" />
+  <meta property="og:description" content="Open .tgs files with out Telegram Sticker viewer tool right on your browser. Telegram sticker files end with .tgs which can be opened with out TGS Sticker Viewer" />
+  <meta property="og:image" content="https://cdn.aravi.me/tgs-preview.webp" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://metatags.io/" />
+  <meta property="twitter:title" content="Telegram Sticker Viewer - TGS Viewer Online" />
+  <meta property="twitter:description" content="Open .tgs files with out Telegram Sticker viewer tool right on your browser. Telegram sticker files end with .tgs which can be opened with out TGS Sticker Viewer" />
+  <meta property="twitter:image" content="https://cdn.aravi.me/tgs-preview.webp" />
+
+
+  <script>
+    const serviceWorkerVersion = "634595572";
+  </script>
+  <script src="flutter.js" defer></script>
+</head>
+<body>
+  <script>
+    window.addEventListener('load', function(ev) {
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>

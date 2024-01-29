@@ -1,8 +1,8 @@
-title: TGS Viewer
-description: Play and view Telegram Sticker Files TGS file (.tgs)
+title: Telegram Sticker Viewer - TGS Viewer Online
+description: Open .tgs files with out Telegram Sticker viewer tool right on your browser. Telegram sticker files end with .tgs which can be opened with out TGS Sticker Viewer
 show_downloads: false
 google_analytics:
 remote_theme: pages-themes/cayman
 github:
   zip_url: https://github.com/kamaravichow/tgs-viewer
-  another_url: https://downloads.aravi.me/raw/Applications/MacOs/TGS/tgsviewer-0.1.dmg
+  another_url: https://tgsviewer.aravi.me/web
